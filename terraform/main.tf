@@ -8,7 +8,7 @@ secret_key = "hL1vTL959lkDosyrWe5qtu+tOsfv2/yGBJRwT0p2"
 resource "aws_instance" "one" {
 ami = "ami-0f409bae3775dc8e5"
 instance_type = "t2.micro"
-key_name = "surabhi"
+key_name = "Surabhi"
 vpc_security_group_ids = [aws_security_group.two.id]
 tags = {
 Name = "My-Instance"
